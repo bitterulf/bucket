@@ -1,9 +1,11 @@
 {
   "name": "bucket",
   "version": "1.0.0",
+  "private": true,
   "description": "",
   "main": "server.js",
   "scripts": {
+    "service": "pm2 start server.js --name='bucket'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
