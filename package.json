@@ -1,0 +1,28 @@
+{
+  "name": "bucket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitterulf/bucket.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bitterulf/bucket/issues"
+  },
+  "homepage": "https://github.com/bitterulf/bucket#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "hapi-auth-basic": "^4.2.0",
+    "inert": "^4.2.0",
+    "unzip": "^0.1.11"
+  },
+  "devDependencies": {
+    "unirest": "^0.5.1"
+  }
+}
